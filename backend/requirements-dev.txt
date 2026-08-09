@@ -1,0 +1,5 @@
+# Backend development tooling (Python Lambda / AWS SAM)
+# Install: pip install -r backend/requirements-dev.txt
+ruff>=0.15          # linter + formatter
+pytest>=9.0         # unit tests
+boto3>=1.43         # AWS SDK (matches Lambda runtime, for local imports/tests)
